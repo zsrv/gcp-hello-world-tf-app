@@ -39,7 +39,7 @@ variable "spring_application_image_tag" {
 variable "spring_profile" {
   type        = string
   description = "Spring Boot configuration profile to activate"
-  default     = ""
+  default     = "default"
 }
 
 variable "google_cloud_spanner_instance_config" {
